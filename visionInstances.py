@@ -44,19 +44,22 @@ class visionInstances:
     visionMissaoDeliverGray = Vision(f'{PathMissionCommon}MissionDeliverButtonGray.jpg')
     visionMissaoLixo = Vision(f'{PathMissionCommon}Lixo.jpg')
     #Missoes-Produtos(single)
-    visionTrigo = Vision(f'{PathMissionProducts}Trigo.jpg') #Used
-    visionMilho = Vision(f'{PathMissionProducts}Milho.jpg')
-    visionCana = Vision(f'{PathMissionProducts}Cana.jpg')
-    visionPao = Vision(f'{PathMissionProducts}Pao.jpg')
-    visionLeite = Vision(f'{PathMissionProducts}Leite.jpg')
+    visionTrigo = Vision(f'{PathMissionProducts}1-Positive{Separator}Trigo.jpg') #Used
+    visionMilho = Vision(f'{PathMissionProducts}1-Positive{Separator}Milho.jpg')
+    visionCana = Vision(f'{PathMissionProducts}1-Positive{Separator}Cana.jpg')
+    visionPao = Vision(f'{PathMissionProducts}1-Positive{Separator}Pao.jpg')
+    visionLeite = Vision(f'{PathMissionProducts}1-Positive{Separator}Leite.jpg')
     #Missoes-Produtos(double)
-    visionTrigoMilho = Vision(f'{PathMissionProducts}TrigoMilho.jpg')
-    visionTrigoCana = Vision(f'{PathMissionProducts}TrigoCana.jpg')
-    visionMilhoCana = Vision(f'{PathMissionProducts}MilhoCana.jpg')
-    visionLeitePao = Vision(f'{PathMissionProducts}LeitePao.jpg')
+    visionTrigoMilho = Vision(f'{PathMissionProducts}1-Positive{Separator}TrigoMilho.jpg')
+    visionTrigoCana = Vision(f'{PathMissionProducts}1-Positive{Separator}TrigoCana.jpg')
+    visionMilhoCana = Vision(f'{PathMissionProducts}1-Positive{Separator}MilhoCana.jpg')
+    visionLeitePao = Vision(f'{PathMissionProducts}1-Positive{Separator}LeitePao.jpg')
     #Missoes-Produtos(triple)
     #Missoes-Produtos(quadruple)
     
     #Geral
     visionSetinhaAzul= Vision(f'{PathGeral}SetinhaAzul.jpg')
+    
+    visionalex = Vision(f'{PathMissionProducts}1-Positive{Separator}alex.jpg') #Used
+    
         
