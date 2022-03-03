@@ -18,12 +18,9 @@ def doInventarioInfo():
     
     def test(lele):
         x = getattr(xabuska, lele)
-        print(x)
-        print(str(x,'utf8'))
-        print(bytes(x))
-        # y = f'xabuska.{list(x)}.find(catch_screenshot(xabuska.wincap), 0.7, "points")'
-        # print(y)
-        # return y
+        y = f'xabuska.{x}.find(catch_screenshot(xabuska.wincap), 0.7, "points")'
+        print(y)
+        return y
     test('visionCapacity')
         
     
