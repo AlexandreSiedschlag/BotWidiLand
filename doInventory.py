@@ -15,11 +15,23 @@ def catch_screenshot(wincap):
     return wincap.get_screenshot()  
 
 def doInventarioInfo():
+    
+    def test(lele):
+        x = getattr(xabuska, lele)
+        print(x)
+        print(str(x,'utf8'))
+        print(bytes(x))
+        # y = f'xabuska.{list(x)}.find(catch_screenshot(xabuska.wincap), 0.7, "points")'
+        # print(y)
+        # return y
+    test('visionCapacity')
+        
+    
     def get_points():
         print('Procurando Trigo')
         contador=0
         while contador<2:
-            points = xabuska.visionalex.find(catch_screenshot(xabuska.wincap), 0.7, 'points')
+            points = xabuska.visionCapacity.find(catch_screenshot(xabuska.wincap), 0.7, 'points')
             if len(points)>0: 
                 print(f'Detectado {len(points)} imagem inventario, Clicando em {points}')
                 return points
@@ -48,4 +60,4 @@ def decodeInventarioInfo(indexPosition, x,y):
     te = te[indexPosition][x:y]
     return te
 
-print(decodeInventarioInfo(1,0,2))
+# print(decodeInventarioInfo(1,0,2))

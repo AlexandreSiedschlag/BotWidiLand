@@ -30,6 +30,8 @@ class visionInstances:
         #logout
         self.PathLogout = f'{self.Folder}{self.Separator}9-Logout{self.Separator}1-Common{self.Separator}'
         
+        self.PathInventory = f'{self.Folder}{self.Separator}10-Inventory{self.Separator}1-Common{self.Separator}'
+        
         
         #Third Config-------------------------------------------------
         #Colher
@@ -61,6 +63,6 @@ class visionInstances:
         #Geral
         self.visionSetinhaAzul= Vision(f'{self.PathGeral}SetinhaAzul.jpg')
         
-        self.visionalex = Vision(f'{self.PathMissionProducts}1-Positive{self.Separator}alex.jpg') #Used
+        self.visionCapacity = Vision(f'{self.PathInventory}{self.Separator}capacity.jpg') #Used
     
         
