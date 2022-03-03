@@ -1,9 +1,9 @@
-from doInventory import doInventarioInfo
+from doInventory import DoInventarioInfo
 from doMission import doMission
 import cv2
-
+inventario = DoInventarioInfo()
 while True:
-    doInventarioInfo()
+    inventario.getTrigo() 
     
     key = cv2.waitKey(1)
     if key == ord('q'):
