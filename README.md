@@ -9,7 +9,7 @@ Under Development!
 Features:
   - Detect main screen images(Multiple Images). :heavy_check_mark:
   - Make a rectangle/marker where the imaged needed is found. :heavy_check_mark:
-  - Click on the needed image center location. :heavy_check_mark:
+  - Click on the needed image center's location. :heavy_check_mark:
   - Auto Login. :x:
   - Auto Reconnect. :x:
   - Auto LevelUp confirmation. :x:
